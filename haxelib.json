@@ -1,10 +1,10 @@
 {
 	"name": "set_window_icon",
-	"url": "https://www.google.com",
+	"url": "https://github.com/skiwcad/ndll-set-window-icon",
 	"license": "MIT",
 	"tags": [],
 	"description": "sets the small and large window icon using the windows api",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"releasenote": "",
 	"contributors": ["skiwcad"],
 	"dependencies": {}
