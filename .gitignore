@@ -1,0 +1,8 @@
+project/obj/
+.DS_Store
+
+*.zip
+ndll/*/*.a
+ndll/*/*.so
+ndll/*/*.ndll
+ndll/*/*.hash

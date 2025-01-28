@@ -1,0 +1,31 @@
+<xml>
+	<include name="${HXCPP}/build-tool/BuildCommon.xml"/>
+
+	<files id="common">
+		<compilerflag value="-Iinclude"/>
+
+		<file name="common/ExternalInterface.cpp"/>
+	</files>
+
+	<set name="SLIBEXT" value=".lib" if="windows"/>
+	<set name="SLIBEXT" value=".a" unless="windows"/>
+	<set name="SLIBEXT" value=".so" if="webos"/>
+
+	<set name="CNE_EXT" value="-windows" if="windows"/>
+	<set name="CNE_EXT" value="-mac" if="mac"/>
+	<set name="CNE_EXT" value="-linux" if="linux"/>
+	<set name="CNE_EXT" value="-android" if="android"/>
+	<set name="CNE_EXT" value="-ios" if="iphoneos"/>
+
+	<set name="DEBUGEXTRA" value="-debug" if="fulldebug" />
+
+	<target id="NDLL" output="set_window_icon${CNE_EXT}" tool="linker" toolid="${STD_MODULE_LINK}">
+		<outdir name="../ndll/${BINDIR}"/>
+		<ext value=".ndll" if="windows || mac || linux"/>
+		<files id="common"/>
+	</target>
+
+	<target id="default">
+		<target id="NDLL"/>
+	</target>
+</xml>

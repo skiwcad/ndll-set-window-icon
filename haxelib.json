@@ -1,0 +1,11 @@
+{
+	"name": "set_window_icon",
+	"url": "https://www.google.com",
+	"license": "MIT",
+	"tags": [],
+	"description": "sets the small and large window icon using the windows api",
+	"version": "0.0.1",
+	"releasenote": "",
+	"contributors": ["skiwcad"],
+	"dependencies": {}
+}
