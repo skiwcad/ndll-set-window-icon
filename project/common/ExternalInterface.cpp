@@ -13,9 +13,10 @@
 #pragma comment(lib, "Dwmapi")
 #endif
 
-//#include <hxcpp.h>
 #include <iostream>
 #include <string>
+
+//#include <hxcpp.h>
 #include <hx/CFFI.h>
 #include <hx/CFFIPrime.h>
 
