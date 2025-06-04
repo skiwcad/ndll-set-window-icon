@@ -2,6 +2,8 @@
 
 Forked from the [Codename Engine NDLL Example](https://github.com/CodenameCrew/ndll-example)
 
+It will use the 16x16 icon for the small window icon and the 256x256 icon for the large taskbar icon.
+
 This NDLL will only work on Windows.
 
 ## Usage in Codename:
