@@ -17,7 +17,7 @@
 	<set name="CNE_EXT" value="-android" if="android"/>
 	<set name="CNE_EXT" value="-ios" if="iphoneos"/>
 
-	<set name="DEBUGEXTRA" value="-debug" if="fulldebug" />
+	<set name="DEBUGEXTRA" value="-debug" if="fulldebug"/>
 
 	<target id="NDLL" output="set_window_icon${CNE_EXT}" tool="linker" toolid="${STD_MODULE_LINK}">
 		<outdir name="../ndll/${BINDIR}"/>

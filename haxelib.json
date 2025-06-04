@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"tags": [],
 	"description": "sets the small and large window icon using the windows api",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"releasenote": "",
 	"contributors": ["skiwcad"],
 	"dependencies": {}
